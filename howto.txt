@@ -14,3 +14,15 @@ npx install create-react-app
 npx create-react-app my-app
 cd my-app
 npm start
+--------------------3.JavaScript Refresher--------------------
+var   → Can change + Can redeclare
+let   → Can change + Cannot redeclare
+const → Cannot change + Cannot redeclare
+
+JavaScript Callback Function:
+A callback function is simply a function that you give to another function so that it can be called later.
+This sounds complicated, but the idea is simple.
+
+What is asynchronous JavaScript?
+Asynchronous JavaScript means:
+JavaScript can start a task and continue doing other work without waiting for that task to finish.
