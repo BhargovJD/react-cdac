@@ -9,3 +9,8 @@ ES7+ React/Redux/React-Native snippets
 Bracket Pair Color DLW
 Auto Rename Tag
 Prettier - Code formatter
+--------------------2.Creating our first react app using create-react-app--------------------
+npx install create-react-app
+npx create-react-app my-app
+cd my-app
+npm start
