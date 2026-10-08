@@ -1,0 +1,11 @@
+--------------------1.Introduction to React Js + Installation--------------------
+install node
+insatll vs code 
+node -v
+npm -v
+React Developer Tools
+Thunder Client
+ES7+ React/Redux/React-Native snippets
+Bracket Pair Color DLW
+Auto Rename Tag
+Prettier - Code formatter
