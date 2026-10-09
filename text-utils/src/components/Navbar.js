@@ -2,10 +2,12 @@ export default function Navbar({
   title = "Set title here",
   aboutText = "Set about text here",
   homeText = "Set home text here",
+  mode = "light",
+  toggleMode = () => {},
 }) {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className={`navbar navbar-expand-lg navbar-${mode} bg-${mode}`}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             {title}
@@ -38,18 +40,20 @@ export default function Navbar({
               </li>
             </ul>
 
-            <form className="d-flex" role="search">
+            <div
+              className={`form-check form-switch text-${mode === "light" ? "dark" : "light"}`}
+            >
               <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
+                className="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="themeSwitch"
+                onClick={toggleMode}
               />
-
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+              <label className="form-check-label" htmlFor="themeSwitch">
+                {"Change theme"}
+              </label>
+            </div>
           </div>
         </div>
       </nav>

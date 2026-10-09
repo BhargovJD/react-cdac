@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function TextForm({
   title = "Set title here",
+  mode = "light",
   textareaPlaceholder = "Set textarea placeholder here",
 }) {
   const [text, setText] = useState("");
@@ -34,8 +35,13 @@ export default function TextForm({
 
           <textarea
             className="form-control"
+            style={{
+              backgroundColor: mode === "dark" ? "#042743" : "white",
+              color: mode === "dark" ? "white" : "black",
+            }}
+            id="message"
             rows={4}
-            placeholder={textareaPlaceholder}
+            // placeholder={textareaPlaceholder}
             value={text}
             onChange={handleOnchange}
           />
