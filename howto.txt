@@ -36,3 +36,12 @@ npm install
 --------------------6.Understanding Props and PropTypes--------------------
 Props
 Deafult props
+--------------------7.Understanding State & Handling Events in React--------------------
+1. What is State in React?
+State is data that a component remembers and can change over time.
+
+2. What are Hooks in React?
+Hooks are special React functions that let function components use React features, such as state and side effects.
+
+3. What is useState?
+useState is a React Hook used to create and update state in a function component.
