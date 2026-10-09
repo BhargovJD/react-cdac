@@ -11,6 +11,15 @@ export default function TextForm({
     setText(newText);
   };
 
+  const handleLowercase = () => {
+    const newText = text.toLowerCase();
+    setText(newText);
+  };
+
+  const clearText = () => {
+    setText("");
+  };
+
   const handleOnchange = (event) => {
     setText(event.target.value);
   };
@@ -31,8 +40,14 @@ export default function TextForm({
             onChange={handleOnchange}
           />
         </div>
-        <button className="btn btn-primary" onClick={handleUppercase}>
+        <button className="btn btn-primary m-1" onClick={handleUppercase}>
           Uppercase
+        </button>
+        <button className="btn btn-primary m-1" onClick={handleLowercase}>
+          Lowercase
+        </button>
+        <button className="btn btn-primary m-1" onClick={clearText}>
+          Clear Text
         </button>
       </div>
 
