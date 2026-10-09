@@ -33,3 +33,6 @@ React uses JSX to describe what the user interface (UI) should look like.
 --------------------5.Project 1: Setup + Adding Bootstrap to React--------------------
 If your node_modules folder or package files are deleted in a React/JavaScript project, you can reinstall the dependencies using npm.
 npm install
+--------------------6.Understanding Props and PropTypes--------------------
+Props
+Deafult props
