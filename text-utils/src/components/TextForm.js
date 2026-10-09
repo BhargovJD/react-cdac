@@ -35,6 +35,11 @@ export default function TextForm({
           Uppercase
         </button>
       </div>
+
+      <div className="container mt-2">
+        <h2>Your text summary</h2>
+        <p>Characters: {text.length}</p>
+      </div>
     </>
   );
 }

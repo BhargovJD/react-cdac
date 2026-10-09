@@ -45,3 +45,5 @@ Hooks are special React functions that let function components use React feature
 
 3. What is useState?
 useState is a React Hook used to create and update state in a function component.
+--------------------8.Adding more Logic to TextUtils--------------------
+Show how many characters
