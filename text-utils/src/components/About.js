@@ -28,20 +28,20 @@ export default function About() {
     <>
       <div className="container py-5" style={myStyle}>
         About us
-        <ul class="list-group">
-          <li class="list-group-item" style={myStyle}>
+        <ul className="list-group">
+          <li className="list-group-item" style={myStyle}>
             An item
           </li>
-          <li class="list-group-item" style={myStyle}>
+          <li className="list-group-item" style={myStyle}>
             A second item
           </li>
-          <li class="list-group-item" style={myStyle}>
+          <li className="list-group-item" style={myStyle}>
             A third item
           </li>
-          <li class="list-group-item" style={myStyle}>
+          <li className="list-group-item" style={myStyle}>
             A fourth item
           </li>
-          <li class="list-group-item" style={myStyle}>
+          <li className="list-group-item" style={myStyle}>
             And a fifth one
           </li>
         </ul>
