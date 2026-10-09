@@ -53,3 +53,4 @@ Show how many characters
 --------------------11.Improving Dark Mode & Refactoring App Component--------------------
 --------------------12.Improving Dark Mode & Refactoring App Component--------------------
 --------------------13.Adding + Auto Dismissing Alert Messages--------------------
+--------------------14-15.Changing title dynamically & adding favicons to TextUtils--------------------

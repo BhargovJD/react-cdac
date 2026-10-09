@@ -29,6 +29,8 @@ function App() {
       document.body.style.backgroundColor = "#042743";
       document.body.style.color = "white";
 
+      document.title = "TextUtils - Dark Mode";
+
       showAlert("Dark mode has been enabled", "success");
     } else {
       // Only for navbar
@@ -38,6 +40,8 @@ function App() {
       document.body.style.backgroundColor = "white";
       document.body.style.color = "black";
 
+      document.title = "TextUtils - Light Mode";
+
       showAlert("Light mode has been enabled", "success");
     }
   };
@@ -45,7 +49,7 @@ function App() {
   return (
     <div className="App">
       <Navbar
-        title="textUtils"
+        title="TextUtils"
         aboutText="About"
         homeText="Home"
         mode={darkMode}
