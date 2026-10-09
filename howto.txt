@@ -30,3 +30,6 @@ JavaScript can start a task and continue doing other work without waiting for th
 What is JSX in React?
 JSX stands for JavaScript XML. It is a syntax that allows you to write HTML-like code inside JavaScript. 
 React uses JSX to describe what the user interface (UI) should look like.
+--------------------5.Project 1: Setup + Adding Bootstrap to React--------------------
+If your node_modules folder or package files are deleted in a React/JavaScript project, you can reinstall the dependencies using npm.
+npm install
