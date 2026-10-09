@@ -4,21 +4,25 @@ export default function TextForm({
   title = "Set title here",
   mode = "light",
   textareaPlaceholder = "Set textarea placeholder here",
+  showAlert = () => {},
 }) {
   const [text, setText] = useState("");
 
   const handleUppercase = () => {
     const newText = text.toUpperCase();
     setText(newText);
+    showAlert("Text converted to uppercase", "success");
   };
 
   const handleLowercase = () => {
     const newText = text.toLowerCase();
     setText(newText);
+    showAlert("Text converted to lowercase", "success");
   };
 
   const clearText = () => {
     setText("");
+    showAlert("Text cleared", "success");
   };
 
   const handleOnchange = (event) => {

@@ -51,4 +51,5 @@ Show how many characters
 Show how many characters
 --------------------10.Creating "Enable Dark Mode" Button Using useState Hook--------------------
 --------------------11.Improving Dark Mode & Refactoring App Component--------------------
---------------------11.Improving Dark Mode & Refactoring App Component--------------------
+--------------------12.Improving Dark Mode & Refactoring App Component--------------------
+--------------------13.Adding + Auto Dismissing Alert Messages--------------------
