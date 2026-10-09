@@ -27,3 +27,6 @@ What is asynchronous JavaScript?
 Asynchronous JavaScript means:
 JavaScript can start a task and continue doing other work without waiting for that task to finish.
 --------------------4.Understanding JSX--------------------
+What is JSX in React?
+JSX stands for JavaScript XML. It is a syntax that allows you to write HTML-like code inside JavaScript. 
+React uses JSX to describe what the user interface (UI) should look like.
