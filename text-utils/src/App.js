@@ -3,7 +3,7 @@ import Alerts from "./components/Alerts";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import { useState } from "react";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   const [darkMode, setDarkMode] = useState("light");
 
@@ -48,21 +48,32 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar
-        title="TextUtils"
-        aboutText="About"
-        homeText="Home"
-        mode={darkMode}
-        toggleMode={toggleMode}
-      />
-      <Alerts alert={alert} />
-      <TextForm
-        title="Text"
-        mode={darkMode}
-        textareaPlaceholder="Enter text here..."
-        showAlert={showAlert}
-      />
-      {/* <About /> */}
+      <Router>
+        <Navbar
+          title="TextUtils"
+          aboutText="About"
+          homeText="Home"
+          mode={darkMode}
+          toggleMode={toggleMode}
+        />
+
+        <Routes>
+          <Route
+            exact
+            path="/"
+            element={
+              <TextForm
+                title="Text"
+                mode={darkMode}
+                textareaPlaceholder="Enter text here..."
+                showAlert={showAlert}
+              />
+            }
+          />
+          <Route exact path="/about" element={<About />} />
+        </Routes>
+        <Alerts alert={alert} />
+      </Router>
     </div>
   );
 }
