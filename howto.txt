@@ -64,3 +64,4 @@ npm run build
 --------------------22.Project 2 Setup + Introduction to Class based components--------------------
 rcc
 https://newsapi.org/pricing
+--------------------23.Component Structure of our NewsMonkey React App--------------------
