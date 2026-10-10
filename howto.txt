@@ -61,3 +61,6 @@ Router, Routes, Route
 --------------------17.Building + Hosting React App For free on Github Pages--------------------
 npm run build
 --------------------18-21.First App Done--------------------
+--------------------22.Project 2 Setup + Introduction to Class based components--------------------
+rcc
+https://newsapi.org/pricing
