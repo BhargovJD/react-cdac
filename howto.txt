@@ -71,3 +71,4 @@ https://newsapi.org/docs/endpoints/top-headlines
 --------------------26.Looping through an array in JSX to display NewsItems from state--------------------
 --------------------27.Using Fetch API in React to populate NewsItems --------------------
 --------------------28.Adding Previous & Next Buttons to populate NewsItems--------------------
+--------------------29.Adding loading spinner & variable pageSize--------------------
