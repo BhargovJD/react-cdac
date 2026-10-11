@@ -294,7 +294,7 @@ export default class News extends Component {
   ];
   constructor() {
     super();
-    console.log("Hello I am a constructor from newsitem");
+    // console.log("Hello I am a constructor from newsitem");
     this.state = {
       articles: this.article,
       loading: false,
@@ -306,30 +306,18 @@ export default class News extends Component {
       <div className="container my-3">
         <h3 className="text-center">NewsApp - Top Headlines</h3>
         <div className="row">
-          <div className="col-md-4">
-            <NewsItem
-              title="News Item 1"
-              description="This is the description for News Item 1."
-              imgSrc="https://via.placeholder.com/300"
-              newsUrl="https://example.com/news1"
-            />
-          </div>
-          <div className="col-md-4">
-            <NewsItem
-              title="News Item 2"
-              description="This is the description for News Item 2."
-              imgSrc="https://via.placeholder.com/300"
-              newsUrl="https://example.com/news2"
-            />
-          </div>
-          <div className="col-md-4">
-            <NewsItem
-              title="News Item 3"
-              description="This is the description for News Item 3."
-              imgSrc="https://via.placeholder.com/300"
-              newsUrl="https://example.com/news3"
-            />
-          </div>
+          {this.state.articles.map((article) => (
+            <div className="col-md-4" key={article.url}>
+              <NewsItem
+                title={article.title ? article.title.slice(0, 30) : ""}
+                description={
+                  article.description ? article.description.slice(0, 30) : ""
+                }
+                imgSrc={article.urlToImage ?? "https://via.placeholder.com/300"}
+                newsUrl={article.url ?? "https://www.google.com"}
+              />
+            </div>
+          ))}
         </div>
       </div>
     );
