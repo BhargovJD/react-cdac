@@ -76,3 +76,4 @@ https://newsapi.org/docs/endpoints/top-headlines
 --------------------74.Setting up Redux app--------------------
 --------------------75.Setting up Action and Reducer in Redux app--------------------
 npm i redux react-redux redux-thunk
+--------------------76.Creating Redux Store--------------------

@@ -1,4 +1,4 @@
-export default function amountReducer(state = 0, action) {
+const amountReducer = (state = 0, action) => {
   switch (action.type) {
     case "ADD_BALANCE":
       return state + action.payload;
@@ -7,4 +7,6 @@ export default function amountReducer(state = 0, action) {
     default:
       return state;
   }
-}
+};
+
+export default amountReducer;
