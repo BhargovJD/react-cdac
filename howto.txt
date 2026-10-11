@@ -74,3 +74,5 @@ https://newsapi.org/docs/endpoints/top-headlines
 --------------------29.Adding loading spinner & variable pageSize--------------------
 --------------------30.Adding Categories & propTypes--------------------
 --------------------74.Setting up Redux app--------------------
+--------------------75.Setting up Action and Reducer in Redux app--------------------
+npm i redux react-redux redux-thunk
