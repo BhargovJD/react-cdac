@@ -72,3 +72,4 @@ https://newsapi.org/docs/endpoints/top-headlines
 --------------------27.Using Fetch API in React to populate NewsItems --------------------
 --------------------28.Adding Previous & Next Buttons to populate NewsItems--------------------
 --------------------29.Adding loading spinner & variable pageSize--------------------
+--------------------30.Adding Categories & propTypes--------------------
