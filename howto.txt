@@ -73,3 +73,4 @@ https://newsapi.org/docs/endpoints/top-headlines
 --------------------28.Adding Previous & Next Buttons to populate NewsItems--------------------
 --------------------29.Adding loading spinner & variable pageSize--------------------
 --------------------30.Adding Categories & propTypes--------------------
+--------------------74.Setting up Redux app--------------------
