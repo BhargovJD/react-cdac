@@ -69,3 +69,4 @@ https://newsapi.org/pricing
 https://newsapi.org/docs/endpoints/top-headlines
 --------------------25.Understanding state in class based components--------------------
 --------------------26.Looping through an array in JSX to display NewsItems from state--------------------
+--------------------27.Using Fetch API in React to populate NewsItems --------------------
